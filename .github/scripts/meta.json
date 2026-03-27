@@ -1,0 +1,10 @@
+{
+  "sourceUrl": "https://github.com/pubkey/rxdb",
+  "branch": "master",
+  "docusaurusRoot": "docs-src",
+  "configFile": "docs-src/docusaurus.config.js",
+  "translateCommand": "npx docusaurus write-translations",
+  "buildCommand": "npm run build",
+  "buildOutput": "build",
+  "packageManager": "npm"
+}
