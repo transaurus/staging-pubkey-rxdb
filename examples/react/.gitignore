@@ -1,0 +1,4 @@
+node_modules/
+npm-debug.log
+firefox_root/
+rxdb-local.tgz

@@ -1,0 +1,11 @@
+#heroes-list {
+  width: 100%;
+}
+
+.actions {
+  float: right;
+}
+
+i, .delete {
+  cursor: pointer;
+}
