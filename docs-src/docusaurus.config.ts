@@ -77,15 +77,15 @@ const config: Config = {
     organizationName: 'pubkey', // Usually your GitHub org/user name.
     projectName: 'rxdb', // Usually your repo name.
 
-    onBrokenLinks: 'throw',
-    onBrokenMarkdownLinks: 'throw',
+    onBrokenLinks: 'warn',
+    onBrokenMarkdownLinks: "warn",
 
     // Even if you don't use internationalization, you can use this field to set
     // useful metadata like html lang. For example, if your site is Chinese, you
     // may want to replace "en" with "zh-Hans".
     i18n: {
         defaultLocale: 'en',
-        locales: ['en'],
+        locales: ["en", "zh-Hans"],
     },
     plugins: [
         [

@@ -1,0 +1,426 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Getting Started": {
+    "message": "Getting Started",
+    "description": "The label for category 'Getting Started' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Core Entities": {
+    "message": "Core Entities",
+    "description": "The label for category 'Core Entities' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Storages": {
+    "message": "Storages",
+    "description": "The label for category 'Storages' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Third Party Storages": {
+    "message": "Third Party Storages",
+    "description": "The label for category 'Third Party Storages' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Storage Wrappers": {
+    "message": "Storage Wrappers",
+    "description": "The label for category 'Storage Wrappers' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Replication": {
+    "message": "Replication",
+    "description": "The label for category 'Replication' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Server": {
+    "message": "Server",
+    "description": "The label for category 'Server' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.How RxDB works": {
+    "message": "How RxDB works",
+    "description": "The label for category 'How RxDB works' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Advanced Features": {
+    "message": "Advanced Features",
+    "description": "The label for category 'Advanced Features' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Migration": {
+    "message": "Migration",
+    "description": "The label for category 'Migration' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Integrations": {
+    "message": "Integrations",
+    "description": "The label for category 'Integrations' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Performance": {
+    "message": "Performance",
+    "description": "The label for category 'Performance' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Releases": {
+    "message": "Releases",
+    "description": "The label for category 'Releases' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Articles": {
+    "message": "Articles",
+    "description": "The label for category 'Articles' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Contact": {
+    "message": "Contact",
+    "description": "The label for category 'Contact' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.link.TanStack DB": {
+    "message": "TanStack DB",
+    "description": "The label for link 'TanStack DB' in sidebar 'tutorialSidebar', linking to 'https://tanstack.com/db/latest/docs/collections/rxdb-collection'"
+  },
+  "sidebar.tutorialSidebar.link.Consulting": {
+    "message": "Consulting",
+    "description": "The label for link 'Consulting' in sidebar 'tutorialSidebar', linking to '/consulting/'"
+  },
+  "sidebar.tutorialSidebar.link.Discord": {
+    "message": "Discord",
+    "description": "The label for link 'Discord' in sidebar 'tutorialSidebar', linking to '/chat/'"
+  },
+  "sidebar.tutorialSidebar.link.LinkedIn": {
+    "message": "LinkedIn",
+    "description": "The label for link 'LinkedIn' in sidebar 'tutorialSidebar', linking to 'https://www.linkedin.com/company/rxdb/'"
+  },
+  "sidebar.tutorialSidebar.doc.Overview": {
+    "message": "Overview",
+    "description": "The label for the doc item 'Overview' in sidebar 'tutorialSidebar', linking to the doc overview"
+  },
+  "sidebar.tutorialSidebar.doc.Quickstart": {
+    "message": "Quickstart",
+    "description": "The label for the doc item 'Quickstart' in sidebar 'tutorialSidebar', linking to the doc quickstart"
+  },
+  "sidebar.tutorialSidebar.doc.RxDatabase": {
+    "message": "RxDatabase",
+    "description": "The label for the doc item 'RxDatabase' in sidebar 'tutorialSidebar', linking to the doc rx-database"
+  },
+  "sidebar.tutorialSidebar.doc.RxSchema": {
+    "message": "RxSchema",
+    "description": "The label for the doc item 'RxSchema' in sidebar 'tutorialSidebar', linking to the doc rx-schema"
+  },
+  "sidebar.tutorialSidebar.doc.RxCollection": {
+    "message": "RxCollection",
+    "description": "The label for the doc item 'RxCollection' in sidebar 'tutorialSidebar', linking to the doc rx-collection"
+  },
+  "sidebar.tutorialSidebar.doc.RxDocument": {
+    "message": "RxDocument",
+    "description": "The label for the doc item 'RxDocument' in sidebar 'tutorialSidebar', linking to the doc rx-document"
+  },
+  "sidebar.tutorialSidebar.doc.RxQuery": {
+    "message": "RxQuery",
+    "description": "The label for the doc item 'RxQuery' in sidebar 'tutorialSidebar', linking to the doc rx-query"
+  },
+  "sidebar.tutorialSidebar.doc.RxStorage Overview": {
+    "message": "RxStorage Overview",
+    "description": "The label for the doc item 'RxStorage Overview' in sidebar 'tutorialSidebar', linking to the doc rx-storage"
+  },
+  "sidebar.tutorialSidebar.doc.LocalStorage (Browser)": {
+    "message": "LocalStorage (Browser)",
+    "description": "The label for the doc item 'LocalStorage (Browser)' in sidebar 'tutorialSidebar', linking to the doc rx-storage-localstorage"
+  },
+  "sidebar.tutorialSidebar.doc.IndexedDB (Browser, Capacitor)": {
+    "message": "IndexedDB (Browser, Capacitor)",
+    "description": "The label for the doc item 'IndexedDB (Browser, Capacitor)' in sidebar 'tutorialSidebar', linking to the doc rx-storage-indexeddb"
+  },
+  "sidebar.tutorialSidebar.doc.OPFS (Browser)": {
+    "message": "OPFS (Browser)",
+    "description": "The label for the doc item 'OPFS (Browser)' in sidebar 'tutorialSidebar', linking to the doc rx-storage-opfs"
+  },
+  "sidebar.tutorialSidebar.doc.Memory": {
+    "message": "Memory",
+    "description": "The label for the doc item 'Memory' in sidebar 'tutorialSidebar', linking to the doc rx-storage-memory"
+  },
+  "sidebar.tutorialSidebar.doc.Filesystem Node (Node.js)": {
+    "message": "Filesystem Node (Node.js)",
+    "description": "The label for the doc item 'Filesystem Node (Node.js)' in sidebar 'tutorialSidebar', linking to the doc rx-storage-filesystem-node"
+  },
+  "sidebar.tutorialSidebar.doc.SQLite (Capacitor, React-Native, Expo, Tauri, Electron, Node.js)": {
+    "message": "SQLite (Capacitor, React-Native, Expo, Tauri, Electron, Node.js)",
+    "description": "The label for the doc item 'SQLite (Capacitor, React-Native, Expo, Tauri, Electron, Node.js)' in sidebar 'tutorialSidebar', linking to the doc rx-storage-sqlite"
+  },
+  "sidebar.tutorialSidebar.doc.Expo Filesystem (React Native, Expo)": {
+    "message": "Expo Filesystem (React Native, Expo)",
+    "description": "The label for the doc item 'Expo Filesystem (React Native, Expo)' in sidebar 'tutorialSidebar', linking to the doc rx-storage-filesystem-expo"
+  },
+  "sidebar.tutorialSidebar.doc.Dexie.js": {
+    "message": "Dexie.js",
+    "description": "The label for the doc item 'Dexie.js' in sidebar 'tutorialSidebar', linking to the doc rx-storage-dexie"
+  },
+  "sidebar.tutorialSidebar.doc.MongoDB": {
+    "message": "MongoDB",
+    "description": "The label for the doc item 'MongoDB' in sidebar 'tutorialSidebar', linking to the doc rx-storage-mongodb"
+  },
+  "sidebar.tutorialSidebar.doc.DenoKV": {
+    "message": "DenoKV",
+    "description": "The label for the doc item 'DenoKV' in sidebar 'tutorialSidebar', linking to the doc rx-storage-denokv"
+  },
+  "sidebar.tutorialSidebar.doc.FoundationDB": {
+    "message": "FoundationDB",
+    "description": "The label for the doc item 'FoundationDB' in sidebar 'tutorialSidebar', linking to the doc rx-storage-foundationdb"
+  },
+  "sidebar.tutorialSidebar.doc.Schema Validation": {
+    "message": "Schema Validation",
+    "description": "The label for the doc item 'Schema Validation' in sidebar 'tutorialSidebar', linking to the doc schema-validation"
+  },
+  "sidebar.tutorialSidebar.doc.Encryption": {
+    "message": "Encryption",
+    "description": "The label for the doc item 'Encryption' in sidebar 'tutorialSidebar', linking to the doc encryption"
+  },
+  "sidebar.tutorialSidebar.doc.Key Compression": {
+    "message": "Key Compression",
+    "description": "The label for the doc item 'Key Compression' in sidebar 'tutorialSidebar', linking to the doc key-compression"
+  },
+  "sidebar.tutorialSidebar.doc.Logger": {
+    "message": "Logger",
+    "description": "The label for the doc item 'Logger' in sidebar 'tutorialSidebar', linking to the doc logger"
+  },
+  "sidebar.tutorialSidebar.doc.Remote RxStorage": {
+    "message": "Remote RxStorage",
+    "description": "The label for the doc item 'Remote RxStorage' in sidebar 'tutorialSidebar', linking to the doc rx-storage-remote"
+  },
+  "sidebar.tutorialSidebar.doc.Worker RxStorage": {
+    "message": "Worker RxStorage",
+    "description": "The label for the doc item 'Worker RxStorage' in sidebar 'tutorialSidebar', linking to the doc rx-storage-worker"
+  },
+  "sidebar.tutorialSidebar.doc.SharedWorker RxStorage": {
+    "message": "SharedWorker RxStorage",
+    "description": "The label for the doc item 'SharedWorker RxStorage' in sidebar 'tutorialSidebar', linking to the doc rx-storage-shared-worker"
+  },
+  "sidebar.tutorialSidebar.doc.Memory Mapped RxStorage": {
+    "message": "Memory Mapped RxStorage",
+    "description": "The label for the doc item 'Memory Mapped RxStorage' in sidebar 'tutorialSidebar', linking to the doc rx-storage-memory-mapped"
+  },
+  "sidebar.tutorialSidebar.doc.Sharding": {
+    "message": "Sharding",
+    "description": "The label for the doc item 'Sharding' in sidebar 'tutorialSidebar', linking to the doc rx-storage-sharding"
+  },
+  "sidebar.tutorialSidebar.doc.Localstorage Meta Optimizer": {
+    "message": "Localstorage Meta Optimizer",
+    "description": "The label for the doc item 'Localstorage Meta Optimizer' in sidebar 'tutorialSidebar', linking to the doc rx-storage-localstorage-meta-optimizer"
+  },
+  "sidebar.tutorialSidebar.doc.Electron": {
+    "message": "Electron",
+    "description": "The label for the doc item 'Electron' in sidebar 'tutorialSidebar', linking to the doc electron"
+  },
+  "sidebar.tutorialSidebar.doc.Sync Engine": {
+    "message": "Sync Engine",
+    "description": "The label for the doc item 'Sync Engine' in sidebar 'tutorialSidebar', linking to the doc replication"
+  },
+  "sidebar.tutorialSidebar.doc.HTTP Replication": {
+    "message": "HTTP Replication",
+    "description": "The label for the doc item 'HTTP Replication' in sidebar 'tutorialSidebar', linking to the doc replication-http"
+  },
+  "sidebar.tutorialSidebar.doc.RxServer Replication": {
+    "message": "RxServer Replication",
+    "description": "The label for the doc item 'RxServer Replication' in sidebar 'tutorialSidebar', linking to the doc replication-server"
+  },
+  "sidebar.tutorialSidebar.doc.GraphQL Replication": {
+    "message": "GraphQL Replication",
+    "description": "The label for the doc item 'GraphQL Replication' in sidebar 'tutorialSidebar', linking to the doc replication-graphql"
+  },
+  "sidebar.tutorialSidebar.doc.WebSocket Replication": {
+    "message": "WebSocket Replication",
+    "description": "The label for the doc item 'WebSocket Replication' in sidebar 'tutorialSidebar', linking to the doc replication-websocket"
+  },
+  "sidebar.tutorialSidebar.doc.CouchDB Replication": {
+    "message": "CouchDB Replication",
+    "description": "The label for the doc item 'CouchDB Replication' in sidebar 'tutorialSidebar', linking to the doc replication-couchdb"
+  },
+  "sidebar.tutorialSidebar.doc.WebRTC P2P Replication": {
+    "message": "WebRTC P2P Replication",
+    "description": "The label for the doc item 'WebRTC P2P Replication' in sidebar 'tutorialSidebar', linking to the doc replication-webrtc"
+  },
+  "sidebar.tutorialSidebar.doc.Firestore Replication": {
+    "message": "Firestore Replication",
+    "description": "The label for the doc item 'Firestore Replication' in sidebar 'tutorialSidebar', linking to the doc replication-firestore"
+  },
+  "sidebar.tutorialSidebar.doc.MongoDB Replication": {
+    "message": "MongoDB Replication",
+    "description": "The label for the doc item 'MongoDB Replication' in sidebar 'tutorialSidebar', linking to the doc replication-mongodb"
+  },
+  "sidebar.tutorialSidebar.doc.Supabase Replication": {
+    "message": "Supabase Replication",
+    "description": "The label for the doc item 'Supabase Replication' in sidebar 'tutorialSidebar', linking to the doc replication-supabase"
+  },
+  "sidebar.tutorialSidebar.doc.Google Drive Replication": {
+    "message": "Google Drive Replication",
+    "description": "The label for the doc item 'Google Drive Replication' in sidebar 'tutorialSidebar', linking to the doc replication-google-drive"
+  },
+  "sidebar.tutorialSidebar.doc.Microsoft OneDrive Replication": {
+    "message": "Microsoft OneDrive Replication",
+    "description": "The label for the doc item 'Microsoft OneDrive Replication' in sidebar 'tutorialSidebar', linking to the doc replication-microsoft-onedrive"
+  },
+  "sidebar.tutorialSidebar.doc.NATS Replication": {
+    "message": "NATS Replication",
+    "description": "The label for the doc item 'NATS Replication' in sidebar 'tutorialSidebar', linking to the doc replication-nats"
+  },
+  "sidebar.tutorialSidebar.doc.Appwrite Replication": {
+    "message": "Appwrite Replication",
+    "description": "The label for the doc item 'Appwrite Replication' in sidebar 'tutorialSidebar', linking to the doc replication-appwrite"
+  },
+  "sidebar.tutorialSidebar.doc.Partial Sync": {
+    "message": "Partial Sync",
+    "description": "The label for the doc item 'Partial Sync' in sidebar 'tutorialSidebar', linking to the doc partial-sync"
+  },
+  "sidebar.tutorialSidebar.doc.RxServer": {
+    "message": "RxServer",
+    "description": "The label for the doc item 'RxServer' in sidebar 'tutorialSidebar', linking to the doc rx-server"
+  },
+  "sidebar.tutorialSidebar.doc.RxServer Scaling": {
+    "message": "RxServer Scaling",
+    "description": "The label for the doc item 'RxServer Scaling' in sidebar 'tutorialSidebar', linking to the doc rx-server-scaling"
+  },
+  "sidebar.tutorialSidebar.doc.Transactions Conflicts Revisions": {
+    "message": "Transactions Conflicts Revisions",
+    "description": "The label for the doc item 'Transactions Conflicts Revisions' in sidebar 'tutorialSidebar', linking to the doc transactions-conflicts-revisions"
+  },
+  "sidebar.tutorialSidebar.doc.Query Cache": {
+    "message": "Query Cache",
+    "description": "The label for the doc item 'Query Cache' in sidebar 'tutorialSidebar', linking to the doc query-cache"
+  },
+  "sidebar.tutorialSidebar.doc.Creating Plugins": {
+    "message": "Creating Plugins",
+    "description": "The label for the doc item 'Creating Plugins' in sidebar 'tutorialSidebar', linking to the doc plugins"
+  },
+  "sidebar.tutorialSidebar.doc.Errors": {
+    "message": "Errors",
+    "description": "The label for the doc item 'Errors' in sidebar 'tutorialSidebar', linking to the doc errors"
+  },
+  "sidebar.tutorialSidebar.doc.Testing": {
+    "message": "Testing",
+    "description": "The label for the doc item 'Testing' in sidebar 'tutorialSidebar', linking to the doc testing"
+  },
+  "sidebar.tutorialSidebar.doc.Schema Migration": {
+    "message": "Schema Migration",
+    "description": "The label for the doc item 'Schema Migration' in sidebar 'tutorialSidebar', linking to the doc migration-schema"
+  },
+  "sidebar.tutorialSidebar.doc.Storage Migration": {
+    "message": "Storage Migration",
+    "description": "The label for the doc item 'Storage Migration' in sidebar 'tutorialSidebar', linking to the doc migration-storage"
+  },
+  "sidebar.tutorialSidebar.doc.Attachments": {
+    "message": "Attachments",
+    "description": "The label for the doc item 'Attachments' in sidebar 'tutorialSidebar', linking to the doc rx-attachment"
+  },
+  "sidebar.tutorialSidebar.doc.RxPipelines": {
+    "message": "RxPipelines",
+    "description": "The label for the doc item 'RxPipelines' in sidebar 'tutorialSidebar', linking to the doc rx-pipeline"
+  },
+  "sidebar.tutorialSidebar.doc.Custom Reactivity": {
+    "message": "Custom Reactivity",
+    "description": "The label for the doc item 'Custom Reactivity' in sidebar 'tutorialSidebar', linking to the doc reactivity"
+  },
+  "sidebar.tutorialSidebar.doc.RxState": {
+    "message": "RxState",
+    "description": "The label for the doc item 'RxState' in sidebar 'tutorialSidebar', linking to the doc rx-state"
+  },
+  "sidebar.tutorialSidebar.doc.Local Documents": {
+    "message": "Local Documents",
+    "description": "The label for the doc item 'Local Documents' in sidebar 'tutorialSidebar', linking to the doc rx-local-document"
+  },
+  "sidebar.tutorialSidebar.doc.Cleanup": {
+    "message": "Cleanup",
+    "description": "The label for the doc item 'Cleanup' in sidebar 'tutorialSidebar', linking to the doc cleanup"
+  },
+  "sidebar.tutorialSidebar.doc.Backup": {
+    "message": "Backup",
+    "description": "The label for the doc item 'Backup' in sidebar 'tutorialSidebar', linking to the doc backup"
+  },
+  "sidebar.tutorialSidebar.doc.Leader Election": {
+    "message": "Leader Election",
+    "description": "The label for the doc item 'Leader Election' in sidebar 'tutorialSidebar', linking to the doc leader-election"
+  },
+  "sidebar.tutorialSidebar.doc.Middleware": {
+    "message": "Middleware",
+    "description": "The label for the doc item 'Middleware' in sidebar 'tutorialSidebar', linking to the doc middleware"
+  },
+  "sidebar.tutorialSidebar.doc.CRDT": {
+    "message": "CRDT",
+    "description": "The label for the doc item 'CRDT' in sidebar 'tutorialSidebar', linking to the doc crdt"
+  },
+  "sidebar.tutorialSidebar.doc.Population": {
+    "message": "Population",
+    "description": "The label for the doc item 'Population' in sidebar 'tutorialSidebar', linking to the doc population"
+  },
+  "sidebar.tutorialSidebar.doc.ORM": {
+    "message": "ORM",
+    "description": "The label for the doc item 'ORM' in sidebar 'tutorialSidebar', linking to the doc orm"
+  },
+  "sidebar.tutorialSidebar.doc.Fulltext Search": {
+    "message": "Fulltext Search",
+    "description": "The label for the doc item 'Fulltext Search' in sidebar 'tutorialSidebar', linking to the doc fulltext-search"
+  },
+  "sidebar.tutorialSidebar.doc.Vector Database": {
+    "message": "Vector Database",
+    "description": "The label for the doc item 'Vector Database' in sidebar 'tutorialSidebar', linking to the doc articles/javascript-vector-database"
+  },
+  "sidebar.tutorialSidebar.doc.Query Optimizer": {
+    "message": "Query Optimizer",
+    "description": "The label for the doc item 'Query Optimizer' in sidebar 'tutorialSidebar', linking to the doc query-optimizer"
+  },
+  "sidebar.tutorialSidebar.doc.WebMCP": {
+    "message": "WebMCP",
+    "description": "The label for the doc item 'WebMCP' in sidebar 'tutorialSidebar', linking to the doc webmcp"
+  },
+  "sidebar.tutorialSidebar.doc.Third Party Plugins": {
+    "message": "Third Party Plugins",
+    "description": "The label for the doc item 'Third Party Plugins' in sidebar 'tutorialSidebar', linking to the doc third-party-plugins"
+  },
+  "sidebar.tutorialSidebar.doc.React": {
+    "message": "React",
+    "description": "The label for the doc item 'React' in sidebar 'tutorialSidebar', linking to the doc react"
+  },
+  "sidebar.tutorialSidebar.doc.RxStorage Performance": {
+    "message": "RxStorage Performance",
+    "description": "The label for the doc item 'RxStorage Performance' in sidebar 'tutorialSidebar', linking to the doc rx-storage-performance"
+  },
+  "sidebar.tutorialSidebar.doc.NoSQL Performance Tips": {
+    "message": "NoSQL Performance Tips",
+    "description": "The label for the doc item 'NoSQL Performance Tips' in sidebar 'tutorialSidebar', linking to the doc nosql-performance-tips"
+  },
+  "sidebar.tutorialSidebar.doc.Slow IndexedDB": {
+    "message": "Slow IndexedDB",
+    "description": "The label for the doc item 'Slow IndexedDB' in sidebar 'tutorialSidebar', linking to the doc slow-indexeddb"
+  },
+  "sidebar.tutorialSidebar.doc.LocalStorage vs. IndexedDB vs. Cookies vs. OPFS vs. WASM-SQLite": {
+    "message": "LocalStorage vs. IndexedDB vs. Cookies vs. OPFS vs. WASM-SQLite",
+    "description": "The label for the doc item 'LocalStorage vs. IndexedDB vs. Cookies vs. OPFS vs. WASM-SQLite' in sidebar 'tutorialSidebar', linking to the doc articles/localstorage-indexeddb-cookies-opfs-sqlite-wasm"
+  },
+  "sidebar.tutorialSidebar.doc.17.0.0": {
+    "message": "17.0.0",
+    "description": "The label for the doc item '17.0.0' in sidebar 'tutorialSidebar', linking to the doc releases/17.0.0"
+  },
+  "sidebar.tutorialSidebar.doc.16.0.0": {
+    "message": "16.0.0",
+    "description": "The label for the doc item '16.0.0' in sidebar 'tutorialSidebar', linking to the doc releases/16.0.0"
+  },
+  "sidebar.tutorialSidebar.doc.15.0.0": {
+    "message": "15.0.0",
+    "description": "The label for the doc item '15.0.0' in sidebar 'tutorialSidebar', linking to the doc releases/15.0.0"
+  },
+  "sidebar.tutorialSidebar.doc.14.0.0": {
+    "message": "14.0.0",
+    "description": "The label for the doc item '14.0.0' in sidebar 'tutorialSidebar', linking to the doc releases/14.0.0"
+  },
+  "sidebar.tutorialSidebar.doc.13.0.0": {
+    "message": "13.0.0",
+    "description": "The label for the doc item '13.0.0' in sidebar 'tutorialSidebar', linking to the doc releases/13.0.0"
+  },
+  "sidebar.tutorialSidebar.doc.12.0.0": {
+    "message": "12.0.0",
+    "description": "The label for the doc item '12.0.0' in sidebar 'tutorialSidebar', linking to the doc releases/12.0.0"
+  },
+  "sidebar.tutorialSidebar.doc.11.0.0": {
+    "message": "11.0.0",
+    "description": "The label for the doc item '11.0.0' in sidebar 'tutorialSidebar', linking to the doc releases/11.0.0"
+  },
+  "sidebar.tutorialSidebar.doc.10.0.0": {
+    "message": "10.0.0",
+    "description": "The label for the doc item '10.0.0' in sidebar 'tutorialSidebar', linking to the doc releases/10.0.0"
+  },
+  "sidebar.tutorialSidebar.doc.9.0.0": {
+    "message": "9.0.0",
+    "description": "The label for the doc item '9.0.0' in sidebar 'tutorialSidebar', linking to the doc releases/9.0.0"
+  },
+  "sidebar.tutorialSidebar.doc.8.0.0": {
+    "message": "8.0.0",
+    "description": "The label for the doc item '8.0.0' in sidebar 'tutorialSidebar', linking to the doc releases/8.0.0"
+  }
+}
